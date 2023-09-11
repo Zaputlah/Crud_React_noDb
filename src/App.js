@@ -148,19 +148,19 @@ function App() {
             <form onSubmit={handleSubmit} className="">
               <form className="form-group">
                 <label htmlFor="">Name</label>
-                <input type="text" onChange={handleChange} className="form-control" value={formData.name} name="name" />
+                <input type="text" onChange={handleChange} className="form-control" value={formData.name} name="name" autocomplete="off" />
               </form>
               <form className="form-group">
                 <label htmlFor="">kendaraan</label>
-                <input type="text" onChange={handleChange} className="form-control" value={formData.kendaraan} name="kendaraan" />
+                <input type="text" onChange={handleChange} className="form-control" value={formData.kendaraan} name="kendaraan" autocomplete="off" />
               </form>
               <form className="form-group">
                 <label htmlFor="">Merk</label>
-                <input type="text" onChange={handleChange} className="form-control" value={formData.Merk} name="Merk" />
+                <input type="text" onChange={handleChange} className="form-control" value={formData.Merk} name="Merk" autocomplete="off" />
               </form>
               <div className="form-group">
                 <label htmlFor="">No. Telp</label>
-                <input type="text" onChange={handleChange} className="form-control" value={formData.telp} name="telp" />
+                <input type="text" onChange={handleChange} className="form-control" value={formData.telp} name="telp" autocomplete="off"/>
               </div>
               <div>
                 <button onClick={handleClick} type="submit" className="btn btn-info w-100 mt-3 mb-3">
